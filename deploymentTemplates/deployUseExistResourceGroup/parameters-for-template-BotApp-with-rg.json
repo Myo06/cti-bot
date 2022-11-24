@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appServiceName": {
+      "value": "call-bot-service"
+    },
+    "existingAppServicePlanName": {
+      "value": "call-bot-service"
+    },
+    "existingAppServicePlanLocation": {
+      "value": "westeurope"
+    },
+    "newAppServicePlanName": {
+      "value": ""
+    },
+    "newAppServicePlanLocation": {
+      "value": ""
+    },
+    "newAppServicePlanSku": {
+      "value": {
+        "name": "S1",
+        "tier": "Standard",
+        "size": "S1",
+        "family": "S",
+        "capacity": 1
+      }
+    },
+    "appType": {
+      "value": "MultiTenant"
+    },
+    "appId": {
+      "value": "6213fd5a-a2c5-4b3b-b672-1ddcf1ec7520"
+    },
+    "appSecret": {
+      "value": "L-o8Q~m1KqV9j5FXXvBWqjRGxbe4Be5oAzqXnaYy"
+    },
+    "UMSIName": {
+      "value": ""
+    },
+    "UMSIResourceGroupName": {
+      "value": ""
+    },
+    "tenantId": {
+      "value": ""
+    }
+  }
+}
